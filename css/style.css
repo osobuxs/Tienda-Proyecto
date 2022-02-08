@@ -1,0 +1,96 @@
+
+/* --------Grid Seccion Productos--------- */
+.gridContenedor{
+    display: grid;
+    grid-template-areas: "carrusel carrusel"
+                        "origen principal"
+                        "servicio principal"
+                        "otro principal"    ;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 15vh 30vh 30vh 30vh;
+    font-family: 'Inter', sans-serif;
+}
+.gridContenedor__gridFiltroOrigen{
+    grid-area: origen;
+}
+
+.gridContenedor__gridFiltroServicio{
+    grid-area: servicio;
+}
+
+.gridContenedor__gridFiltroOtro{
+    grid-area: otro;
+}
+
+.gridContenedor__gridPrincipal{
+    grid-area: principal;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:white ;
+    border: 2px solid;
+}
+
+.gridContenedor__gridPrincipal__producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    box-shadow:  -3rem 3rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.gridContenedor__gridPrincipal__producto:hover{
+    background-color: tomato;
+}
+
+.gridContenedor__gridPrincipal__producto_imagenProducto{
+    width: 10rem; 
+    height: 10rem;
+}
+.gridContenedor__gridCarrusel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    grid-area: carrusel;
+    border: 1px solid;
+    background-color: white;
+}
+.gridContenedor__gridCarrusel__imagen{
+    width: 8rem; height: 8rem;
+}
+
+.gridContenedor__gridFiltroOtro__lista, .gridContenedor__gridFiltroOrigen__lista, .gridContenedor__gridFiltroServicio__lista {
+    list-style: none;
+    background-color: #bbbbbb;
+    padding: 0rem 5rem 0rem 5rem;
+}
+.gridContenedor__gridFiltroOtro, .gridContenedor__gridFiltroOrigen, .gridContenedor__gridFiltroServicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: x-large;
+    background-color: darkgray;
+    border: 2px solid;
+}
+.gridContenedor__gridFiltroOtro__titulo, .gridContenedor__gridFiltroOrigen__titulo, .gridContenedor__gridFiltroServicio__titulo {
+    background-color: darkgray;
+    }
+
+
+
+
+/* ----Estilo sin categoria / por modificar---- */
+
+
+main form{
+    color: rgb(0, 0, 0);
+    background-color: rgba(151, 151, 151, 0.753);
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    border: 3px solid #000;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5rem;
+}

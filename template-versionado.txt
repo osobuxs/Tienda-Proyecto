@@ -1,0 +1,22 @@
+/**
+ * @challenge: Curso Javascript Coder
+ * 
+ * @version: v2.0.
+ * @author: Vega Luis Fernando Exequiel
+ * @fecha: 04/02/2021
+ *
+ * History:
+ *  - v1.0.0 – Primera Entrega
+ *  - v1.0.1 - Segunda Entrega
+ *  - v1.0.2 - Tercera Entrega
+ *  - v1.0.3 - Cuarta Entrega
+ *  - v1.0.4 - Quinta y Sexta Entrega
+ *  - v1.0.5 - Septima Entrega
+ *  - v1.0.6 - Octava Entrega
+ *  - v1.1.0 - Novena Entrega
+ *  - v1.1.1 - Entrega decima, segundo avance proyecto final
+ *  - v1.2.0 - Entrega Tercer avance proyecto final
+ *  - v2.0.0 - Cuarta entrega proyecto final
+ */
+
+// Código de aquí en adelante

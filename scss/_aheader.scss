@@ -1,0 +1,61 @@
+/* -----Header--- */
+/* Este no es el header del Index.html , ya que ese tiene un header con boostrap.
+Pd: Se unificaran los Header pronto.
+*/
+@mixin TextTranformAndSizes($color,$textTrans,$fontSize,$ml,$familyFont) {
+    color: $color;
+    text-transform: $textTrans;
+    font-size: $fontSize;
+    margin-left: $ml;
+    font-family: $familyFont;
+}
+
+
+.header__contenedorLogo__titulo{
+    @include TextTranformAndSizes(crimson,uppercase,0rem,5px,'Bebas Neue');
+    
+    padding: 0px;
+    text-decoration: none;
+    
+}
+.header__contenedorLogo__subtitulo{
+    @include TextTranformAndSizes(blanchedalmond,capitalize , 2rem,1rem ,'Teko');
+    align-content: center;
+    margin-bottom: 1rem;
+}
+.header__nav__ul__li__link{
+    color: blanchedalmond;
+    text-decoration: none;
+    
+}
+.header__nav__ul__li{
+    color: blanchedalmond;
+    list-style: none;
+    display: inline-block;
+    padding: 0.3rem;
+    margin-right: 2rem;
+    font: {
+        family: 'Inter', sans-serif;
+        weight: bold;
+    };
+}
+
+.header__nav__ul{
+    text-transform: uppercase;
+    text-decoration: none;
+    //background-color:rgb(105, 103, 103);
+    margin-left: 1rem;
+}
+
+.header__nav__ul__li:hover{
+    background-color: rgb(128, 128, 128);
+}
+.header__nav{
+    //background-color:rgb(105, 103, 103);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav__buscador{
+    margin-right: 2rem;
+}
